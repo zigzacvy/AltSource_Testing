@@ -1,0 +1,6 @@
+/Users/PhuongLe/RiderProjects/AltSource_TestingProject/AltSource_TestingProject/bin/Debug/AltSource_TestingProject.exe
+/Users/PhuongLe/RiderProjects/AltSource_TestingProject/AltSource_TestingProject/bin/Debug/AltSource_TestingProject.pdb
+/Users/PhuongLe/RiderProjects/AltSource_TestingProject/AltSource_TestingProject/obj/Debug/AltSource_TestingProject.csprojAssemblyReference.cache
+/Users/PhuongLe/RiderProjects/AltSource_TestingProject/AltSource_TestingProject/obj/Debug/AltSource_TestingProject.csproj.CoreCompileInputs.cache
+/Users/PhuongLe/RiderProjects/AltSource_TestingProject/AltSource_TestingProject/obj/Debug/AltSource_TestingProject.exe
+/Users/PhuongLe/RiderProjects/AltSource_TestingProject/AltSource_TestingProject/obj/Debug/AltSource_TestingProject.pdb
