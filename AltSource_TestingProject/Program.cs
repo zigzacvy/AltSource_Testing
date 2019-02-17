@@ -58,11 +58,21 @@ namespace AltSource_TestingProject
         {
             Console.WriteLine("------------- TShirt-------------");
             data.TShirts.ForEach(tShirt =>
-                Console.WriteLine($"{tShirt.Id}, {tShirt.Quanlity}, {tShirt.Color}, {tShirt.Size}, {tShirt.BuyPrice}"));
+                Console.WriteLine($"Id: {tShirt.Id}, " +
+                                  $"Quanlity: {tShirt.Quanlity}, " +
+                                  $"Color: {tShirt.Color}, " +
+                                  $"{tShirt.Size}, " +
+                                  $"BuyPrice: {tShirt.BuyPrice}, " +
+                                  $"SellPrice: {tShirt.SellPrice}"));
             
             Console.WriteLine("------------- DressShirt-------------");
             data.DressShirts.ForEach(dShirt =>
-                Console.WriteLine($"{dShirt.Id}, {dShirt.Quanlity}, {dShirt.Color}, {dShirt.Size}, {dShirt.BuyPrice}"));
+                Console.WriteLine($"Id: {dShirt.Id}, " +
+                                  $"Quanlity: {dShirt.Quanlity}, " +
+                                  $"Color: {dShirt.Color}, " +
+                                  $"{dShirt.Size}, " +
+                                  $"BuyPrice: {dShirt.BuyPrice}, " +
+                                  $"SellPrice: {dShirt.SellPrice}"));
             
         }
 
