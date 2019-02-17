@@ -46,6 +46,7 @@
     <Compile Include="Model\TShirt.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Service\DressShirtService.cs" />
     <Compile Include="Service\TShirtService.cs" />
     <Compile Include="Service\IBaseService.cs" />
   </ItemGroup>

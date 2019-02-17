@@ -36,11 +36,33 @@ using AltSource_TestingProject.Model;
              }
          }
 
-         public bool Buy(TShirt tShirt)
+         public bool Buy(int quanlity, Enum color, Enum size)
          {
-             throw new NotImplementedException();
+             try
+             {
+                 int id = _dataSeed.TShirts.Count + 1;
+                 var tshirt = new TShirt
+                 {
+                     Id = id,
+                     Color = (Color) color,
+                     Size = (Size) size, 
+                     Quanlity = quanlity, 
+                     BuyPrice = 6,
+                     SellPrice = 12
+                 };
+                 
+                 _dataSeed.TShirts.Add(tshirt);
+                 return true;
+
+             }
+             catch (Exception e)
+             {
+                 Console.WriteLine(e.StackTrace);
+                 return false;
+             }
          }
 
+        
         
          public TShirt FindById(string id)
          {
@@ -52,7 +74,7 @@ using AltSource_TestingProject.Model;
                      return null;
                  }
 
-                 TShirt data = _dataSeed.TShirts.SingleOrDefault(tshirt => tshirt.Id.Equals(Guid.Parse(id)));
+                 TShirt data = _dataSeed.TShirts.SingleOrDefault(tshirt => tshirt.Id == Int32.Parse(id));
                  if (data == null)
                  {
                      Console.WriteLine("Cannot find TShirt");

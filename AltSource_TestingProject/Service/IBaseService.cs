@@ -11,7 +11,7 @@ namespace AltSource_TestingProject.Service
 
     {
     bool Sell(T clothes, int quanlity);
-    bool Buy(T clothes);
-    T FindById(string Id);
+    bool Buy(int quanlity, Enum color, Enum size);
+    T FindById(string id);
     }
 }

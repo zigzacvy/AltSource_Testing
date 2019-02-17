@@ -10,18 +10,18 @@ namespace AltSource_TestingProject.DataSeed
         {
             TShirts = new List<TShirt>()
             {
-                new TShirt(){Id = Guid.NewGuid(),Color = Color.Black, SellPrice = 12, BuyPrice = 6, Size = Size.SizeS,Quanlity = 100},
-                new TShirt(){ Id = Guid.NewGuid(),Color = Color.White, SellPrice = 12, BuyPrice = 6, Size = Size.SizeM, Quanlity = 100},
-                new TShirt(){ Id = Guid.NewGuid(),Color = Color.Yellow, SellPrice = 12, BuyPrice = 6, Size = Size.SizeL, Quanlity = 100},
-                new TShirt(){Id = Guid.NewGuid(),Color = Color.Red, SellPrice = 12, BuyPrice = 6, Size = Size.SizeS, Quanlity = 100}
+                new TShirt(){Id = 1,Color = Color.Black, SellPrice = 12, BuyPrice = 6, Size = Size.SizeS,Quanlity = 100},
+                new TShirt(){ Id = 2,Color = Color.White, SellPrice = 12, BuyPrice = 6, Size = Size.SizeM, Quanlity = 100},
+                new TShirt(){ Id = 3,Color = Color.Yellow, SellPrice = 12, BuyPrice = 6, Size = Size.SizeL, Quanlity = 100},
+                new TShirt(){Id = 4,Color = Color.Red, SellPrice = 12, BuyPrice = 6, Size = Size.SizeS, Quanlity = 100}
                 
             };
             DressShirts = new List<DressShirt>()
             {
-                new DressShirt(){Id = Guid.NewGuid(), Color =  Color.Black, SellPrice = 20, BuyPrice =  8, Size = Size.SizeS, Quanlity = 100},
-                new DressShirt(){Id = Guid.NewGuid(), Color =  Color.White, SellPrice = 20, BuyPrice =  8, Size = Size.SizeS, Quanlity = 100},
-                new DressShirt(){Id = Guid.NewGuid(), Color =  Color.Yellow, SellPrice = 20, BuyPrice =  8, Size = Size.SizeS, Quanlity = 100},
-                new DressShirt(){Id = Guid.NewGuid(), Color =  Color.Red, SellPrice = 20, BuyPrice =  8, Size = Size.SizeS, Quanlity = 100}
+                new DressShirt(){Id = 1, Color =  Color.Black, SellPrice = 20, BuyPrice =  8, Size = Size.SizeS, Quanlity = 100},
+                new DressShirt(){Id = 2, Color =  Color.White, SellPrice = 20, BuyPrice =  8, Size = Size.SizeS, Quanlity = 100},
+                new DressShirt(){Id = 3, Color =  Color.Yellow, SellPrice = 20, BuyPrice =  8, Size = Size.SizeS, Quanlity = 100},
+                new DressShirt(){Id = 4, Color =  Color.Red, SellPrice = 20, BuyPrice =  8, Size = Size.SizeS, Quanlity = 100}
             };
 
         }

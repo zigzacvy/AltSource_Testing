@@ -5,7 +5,7 @@ namespace AltSource_TestingProject.Model
 {
     public abstract class Clothes
     {
-        public Guid Id { get; set; }
+        public int Id { get; set; }
         public Color Color { get; set; }
         
         public decimal SellPrice { get; set; }
